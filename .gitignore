@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local application data and generated model files
+attendance.db
+model.pkl
+train_status.json
+
+# Captured face data and generated images
+dataset/*
+static/images/*
+
+# Local environment and editor files
+.env
+.env.*
+.vscode/
